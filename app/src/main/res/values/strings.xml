@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Technos Services</string>
+
+    <string-array name="pet_name">
+        <item>NMR</item>
+        <item>Mass Spectrometer</item>
+        <item>FTIR </item>
+        <item>UV-Vis  Spectrophotometer</item>
+        <item>Fluorescence Spectrophotometer</item>
+        <item>XRD </item>
+        <item>FESEM</item>
+        <item>TEM</item>
+        <item>AFM/SPM </item>
+        <item>DMA</item>
+        <item>STA/TGA</item>
+        <item>OES</item>
+        <item>AAS</item>
+        <item>Thermal CVD</item>
+        <item>Vacuum Coating Unit</item>
+        <item>RF/DC Sputtering</item>
+        <item>Planetary Ball Milling</item>
+        <item>Microwave Reactor</item>
+        <item>Spin Coater</item>
+        <item>XPS</item>
+        <item>EBSD</item>
+        <item>Raman/PL</item>
+        <item>Zeta Potential</item>
+        <item>Impedance Analyzer</item>
+        <item>SDA + Probe Station</item>
+        <item>Micro Hardness Tester</item>
+        <item>Optical Microscope</item>
+    </string-array>
+</resources>

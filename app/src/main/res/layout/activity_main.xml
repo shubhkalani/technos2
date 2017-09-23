@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/content_frame"
+        android:background="@android:color/background_light"
+        tools:context="in.technos.technosservices.MainActivity"
+        android:weightSum="1">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_height="200dp"
+            android:layout_width="match_parent"
+            >
+
+        </android.support.v4.view.ViewPager>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/view_pager"
+        android:background="@android:color/darker_gray"
+        android:fontFamily="serif-monospace"
+        android:padding="2dp"
+        android:text="Services offered :"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/myRecycler"
+            android:layout_width="381dp"
+            android:layout_height="match_parent"
+
+            android:layout_below="@+id/text1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
